@@ -1,0 +1,428 @@
+{
+    "category": "chapter_4",
+    "name": "Agriculture",
+    "content": [
+        {
+            "title": "Plantation et Rotation",
+            "numero": "4.1",
+            "content": [
+                {
+                    " text": "<h1>N&#176;:Amélioration librement choisie</h1><br/>Les variétés de plantes pour les plantations, le greffage et la rénovation sont sélectionnées en fonction de la qualité, de la productivité, de la résistance aux ravageurs et aux maladies et de leur adéquation au climat durant la durée de vie des plantes. Ceci est effectué conformément aux résultats de l&#39;Évaluation des risques liés au climat (1.3.5), dans le cas où elle a été réalisée. &#13; Les matériaux de plantation sont indemnes de ravageurs et de maladies.",
+                    "num": "4.1.1",
+                    "certif_de_group": {
+                        "direction_du_group": "YES",
+                        "petite_exploitation_agricole": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "4.1.2",
+                    " text": "Les nouvelles plantations possèdent un système de culture bien établi qui prend en compte par exemple : &#13; <ul><li>Les exigences de la variété utilisée</li><li>Les conditions agronomiques, écologiques et géographiques</li><li>La diversification et les cultures intercalaires avec différentes profondeurs de racines et d'usages des sols pour améliorer la qualité et la santé des sols</li><li>La densité de plantation</li></ul>",
+                    "certif_de_group": {
+                        "direction_du_group": "NO",
+                        "petite_exploitation_agricole": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "4.1.3 N1",
+                    " text": "Les producteurs mettent en œuvre des mesures pour préserver les cultures des ravageurs et des maladies et pour casser leurs cycles biologiques, pour renforcer la santé des sols et améliorer la gestion des mauvaises herbes. Au nombre de ces mesures figurent des cultures intercalaires, et des mesures prises entre les cycles de cultures telles que la rotation des cultures ou la jachère.",
+                    "certif_de_group": {
+                        "direction_du_group": "YES",
+                        "petite_exploitation_agricole": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Taille, élagage et rénovation des plantations d&#39;arbres",
+            "numero": "4.2",
+            "content": [
+                {
+                    "num": "4.2.1",
+                    "principal_requirement": "<h1>N&#176;:Exigences principales</h1><br/>La direction met en œuvre un cycle de <u>taille et élagage</u> pour une taille et un élagage adéquats de formation, d&#39;entretien et de <u>rajeunissement</u> conformément aux besoins de la culture, aux conditions agroécologiques et aux directives de tailles et élagage applicables. &#13; La direction du groupe soutient les membres du groupe à mettre en œuvre ce cycle de taille et élagage.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "NO",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "4.2.2",
+                    "principal_requirement": "<h1>N&#176;:Compteur Intelligent obligatoire</h1><br/>Les producteurs réalisent la taille et l&#39;élagage suivant l&#39;exigence de la section 4.2.1. &#13; <strong>Indicateur</strong> &#13; &#37; de membres du groupe qui taillent et élaguent de manière appropriée suivant les besoins des cultures, lesconditions agroécologiques et les directives de taille et d&#39;élagage applicables.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "NO",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "NO",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "4.2.3",
+                    "principal_requirement": "<h1>N&#176;:Compteur Intelligent obligatoire</h1><br/>Les producteurs rénovent les cultures agricoles certifiées, si nécessaire, en fonction de l&#39;âge, de la maladie ou d&#39;autres causes, afin de maintenir la productivité. Cela nécessite des zones de replantation, un ajustement de la densité deplantation et le greffage. &#13; <strong>Indicateur</strong> <ul><li>Pour les petites exploitations agricoles : &#37; des membres du groupe qui appliquent les pratiques de rénovation pour les cultures certifiées</li><li>Pour les grandes exploitations agricoles : &#37; de la surface des exploitations agricoles ayant des cultures certifiées où les pratiques de rénovation sont mises en œuvre</li></ul>",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "YES",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Organismes Génétiquement Modifiés (OGM)",
+            "numero": "4.3",
+            "content": [
+                {
+                    "num": "4.3.1",
+                    "principal_requirement": "<h1>N&#176;:Exigences principales</h1><br/>La culture certifiée n&#39;est pas génétiquement modifiée (OGM).",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "YES",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "4.3.2",
+                    "principal_requirement": "<h1>N&#176;:Amélioration librement choisie</h1><br/>Il n&#39;y a pas de cultures génétiquement modifiées (OGM) sur l&#39;exploitation agricole.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "YES",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Conservation et Fertilité des Sols",
+            "numero": "4.4",
+            "content": [
+                {
+                    "num": "4.4.1",
+                    "principal_requirement": "<h1>N&#176;:Exigences principale</h1><br/>La direction réalise une évaluation du sol pour un échantillon représentatif de la zone et la met à jour au moins une fois tous les trois ans. L&#39;évaluation du sol contient, le cas échéant : &#13; <ol type=\"a\"><li>Zones sensibles à l&#39;érosion et pentes</li><li>Structure du sol</li><li>Profondeur du sol et horizons du sol</li><li>Densification des zones de compaction</li> <li>Conditions de drainage</li> <li>Les niveaux de macronutriments et de matière organique. Ces niveaux sont calculés à l&#39;aide de tests du sol et/ou de l&#39;observation des symptômes visuels d&#39;une carence nutritive (tests sur les feuilles) sur un échantillon géographique représentatif.</li></ol>  &#13; L&#39;évaluation du sol est actualisée au moins une fois tous les trois ans. &#13; En ce qui concerne les cultures annuelles, les Niveaux de macronutriments et matière organique (voir Point g.) sont évalués chaque année.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "YES",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "4.4.2",
+                    "principal_requirement": "<h1>N&#176;:Exigences principale</h1><br/>En fonction de l&#39;évaluation du sol, la direction identifie des mesures de gestion des sols et les inclut dans le plan de gestion pour accumuler de la matière organique dans le sol, augmenter le recyclage des nutriments dans l&#39;exploitation agricole et optimiser l&#39;humidité du sol.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "YES",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "4.4.4",
+                    "principal_requirement": "<h1>N&#176;:Exigences principale</h1><br/>Lorsque c&#39;est possible, les producteurs utilisent d&#39;abord des produits dérivés produits sur l&#39;exploitation agricole, dont les engrais organiques. Si plus de nutriments sont nécessaires, un supplément d&#39;engrais organiques ou inorganiques est apporté là où c&#39;est possible. &#13; Pour minimiser les risques, le fumier est composté à chaud avant de l&#39;utiliser comme engrais. Les producteurs stockent la fumure animale et le compost au moins à 25 mètres de toute étendue d&#39;eau.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "YES",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "NO",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "4.4.5 N1",
+                    "principal_requirement": "<h1>N&#176;:Amélioration obligatoire</h1><br/>Le sol de la zone de production n&#39;est pas laissé à nu, il est protégé par des mesures telles que les cultures de couverture, les résidus de cultures ou des paillis.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "YES",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "NO",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "4.4.6 N1",
+                    "principal_requirement": "<h1>N&#176;:Amélioration obligatoire</h1><br/>Les engrais sont appliqués de telle manière que les nutriments sont disponibles au moment et à l&#39;endroit où les cultures en ont besoin. La contamination de l&#39;environnement en est ainsi diminuée.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "YES",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "NO",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "4.4.7",
+                    "principal_requirement": "<h1>N&#176;:Compteur Intelligent obligatoire</h1><br/>Les producteurs font le suivi et optimisent l&#39;utilisation des engrais organiques et inorganiques. &#13; <strong>Indicateur: </strong> <ul><li>&#37; des membres du groupe qui utilisent des engrais organiques.</li><li>Volume de N, P et K par ha (kg/ha, par an ou par cycle de culture)</li></ul> &#13; &#13; Dans les groupes de petites exploitations agricoles, l&#39;indicateur peut être suivi sur un échantillon représentatif des exploitations agricoles.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "YES",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Lutte Intégrée contre les Ravageurs (LIR)",
+            "numero": "4.5",
+            "content": [
+                {
+                    "num": "4.5.1",
+                    "principal_requirement": "<h1>N&#176;:Exigences principales</h1><br/>La direction met en œuvre la stratégie de Lutte Integrée contre les Pestes (LIR) élaborée par un professionnel compétent. La stratégie de PIC contient des mesures de prévention, de suivi et d'intervention dans le champ d&#39;application de l'exploitation agricole totale, y compris les installations de transformation. La stratégie de PIC se base sur les conditions climatiques, les résultats du suivi des ravageurs, les actions de PIC mises en œuvre et les données des applications de pesticides. La stratégie de PIC est mise à jour annuellement.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "NO",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "4.5.2",
+                    "principal_requirement": "<h1>N&#176;:Exigences principales</h1><br/>Les producteurs contrôlent et conservent les données concernant les ravageurs. &#13; Les archives de suivis sont conservées par les grandes exploitations agricoles et par la direction du groupe pour un échantillon représentatif des producteurs. &#13; Les dossiers archivés incluent la date, le lieu et le type de ravageur.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "YES",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "4.5.3",
+                    "principal_requirement": "<h1>N&#176;:Exigences principales</h1><br/>Pour la prévention et la lutte contre les ravageurs, les producteurs utilisent en premier lieu des méthodes biologiques et mécaniques, ainsi que d&#39;autres méthodes non agrochimiques et documentent l'utilisation et l&#39;efficacité de ces méthodes. Lorsque des niveaux seuils de ravageurs sont atteints, les producteurs peuvent faire des applications de produits agrochimiques, telles que conseillées par un technicien compétent et/ou suivant les conseils ou l&#39;instruction d'une organisation officielle nationale. &#13; Lorsque des produits agrochimiques sont utilisés : <ul><li>Les produits agrochimiques possédant la plus basse toxicité et la plus haute sélectivité sont utilisés</li><li>les applications sont faites uniquement sur les plantes et zones impactées</li><li>es ingrédients actifs sont alternés pour éviter et réduire la résistance</li><li>es pulvérisations programmées sur la base d&#39;un calendrier sont évitées et ne sont permises que lorsqu&#39;elles sont recommandées par un technicien compétent ou une organisation officielle nationale.</li></ul>",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "YES",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "NO",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "4.5.4",
+                    "principal_requirement": "<h1>N&#176;:Amélioration obligatoire</h1><br/>Les producteurs et les travailleurs qui sont impliqués dans les activités de gestion des ravageurs sont formés sur la stratégie de PIC.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "YES",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "4.5.5 N1",
+                    "principal_requirement": "<h1>N&#176;:Amélioration obligatoire</h1><br/>Les producteurs ont mis en œuvre la stratégie de PIC.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "YES",
+                        "direction_du_group": "NO",
+                        "grande_exploitation_agricole": "NO",
+                        "Petite/grandes": "NO"
+                    }
+                },
+                {
+                    "num": "4.5.6 N2",
+                    "principal_requirement": "<h1>N&#176;:Compteur Intelligent obligatoire</h1><br/>Les producteurs améliorent les <u>écosystèmes naturels</u> à proximité des zones de cultures pour augmenter les habitats des <u>ennemis&#47;auxiliaires naturels</u>. Par exemple : insectariums, plantation d&#39;arbres et d&#39;arbustes attirant les oiseaux/chauves-souris/pollinisateurs, conversion des zones de basse altitude en petits étangs avec de la végétation, amélioration des zones ripariennes et de leur végétation.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "YES",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "4.5.7",
+                    "principal_requirement": "<h1>N&#176;:Compteur Intelligent obligatoire</h1><br/>Les producteurs assurent le suivi et réduisent l&#39;utilisation des pesticides. &#13; <strong>Indicateur: </strong> <ul><li>Ingrédients actifs par ha (quantité de matière active en kg/ha, par an ou par cycle de culture)</li><li>Ingrédients actifs utilisées figurant dans la liste d&#39;utilisation exceptionnelle et la liste d&#39;atténuation des risques.</li></ul> &#13; Dans les groupes de petites exploitations agricoles, l&#39;indicateur peut être suivi sur un échantillon représentatif des exploitations agricoles. ",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "YES",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "4.5.8 L2",
+                    "principal_requirement": "<h1>N&#176;:Améliorations obligatoires</h1><br/>Les producteurs contrôlent et conservent régulièrement les données relatives aux ennemis naturels des ravageurs. &#13; Les archives de suivis sont conservées par les grandes exploitations agricoles et par la direction du groupe pour un échantillon représentatif des producteurs. &#13; Les dossiers archivés incluent la date, le lieu et le type d&#39;ennemi naturel.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "YES",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Gestion des produits agrochimiques",
+            "numero": "4.6",
+            "content": [
+                {
+                    "num": "4.6.1",
+                    "principal_requirement": "<h1>N&#176;:Exigences principales</h1><br/> Aucun produit chimique répondant aux points suivants n&#39;est utilisé : &#13;  <ul><li>Sur la Liste des pesticides interdits ou la Liste des pesticides obsolètes établies par Rainforest Alliance.</li><li>Interdit par la législation applicable</li><li>Non inscrit légalement dans le pays où l&#39;exploitation agricole est située</li></ul> &#13; Les producteurs doivent uniquement utiliser des produits agrochimiques vendus par des revendeurs autorisés et conditionnés dans leur emballage d&#39;origine hermétiquement scellé. Les substances agrochimiques utilisées pour le bétail ou les animaux de compagnie, ne sont pas incluses dans le champ d&#39;application de la norme applicable à la direction du groupe dans le cas où la direction du groupe a une tâche d&#39;achat.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "NO",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "4.6.2",
+                    "principal_requirement": "<h1>N&#176;:Exigences principales</h1><br/>Si les producteurs utilisent des pesticides de la Liste d&#39;atténuation des risques, toutes les pratiques d&#39;atténuation des risques respectives, telles que décrites dans l&#39;Annexe Chapitre 4 : Agriculture, Gestion des pesticides, sont mises en œuvre. &#13; Si les producteurs utilisent des pesticides listés dans la politique d'utilisation exceptionnelle, toutes les pratiques d&#39;atténuation des risques respectives, telles que décrites dans cette politique, sont mises en œuvre. &#13; ",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "YES",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "4.6.3",
+                    "principal_requirement": "<h1>N&#176;:Exigences principales</h1><br/>Les personnes manipulant des <u>pesticides</u> possèdent les compétences nécessaires à la préparation et à l&#39;application des pesticides et reçoivent une formation annuelle. Les personnes manipulant des pesticides utilisent des <u>Équipements de protection individuelle (EPI)</u>, comme décrit sur l&#39;étiquette du produit ou sur la Fiche de données de sécurité (FDS) S'il n&#39;y a pas d'informations, des <u>vêtements de protection de base</u> avec des accessoires supplémentaires sont portés, en fonction du risque potentiel et selon les recommandations d'un technicien compétent.. L&#39;EPI est en bon état. Directement après utilisation l&#39;EPI est lavé et stocké de manière sécurisée et ne rentre pas dans le <u>logement des travailleurs</u> Les articles à usage unique sont jetés après une utilisation. &#13; L&#39;EPI est fourni gratuitement aux travailleurs. &#13; La <u>direction du groupe/des exploitations agricoles<u> possède un système pour enregistrer, suivre et faire respecter l'utilisation des EPI.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "YES",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "4.6.4",
+                    "principal_requirement": "<h1>N&#176;:Exigences principales</h1><br/>Les personnes manipulant les pesticides se lavent, se changent et lavent leurs vêtements après application. <br/><br/> La direction fournit aux manipulateurs de produits agrochimiques au moins un site qui fournit de l'intimité, de l&#39;eau et du savon et quand c&#39;est possible des installations pour se douche",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "YES",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "4.6.5",
+                    "principal_requirement": "<h1>N&#176;:Exigences principales</h1><br/>Les pesticides sont préparés et appliqués selon le label, la FDS ou l&#39;étiquette de sécurité, ou suivant les recommandations d'une organisation officielle nationale ou d&#39;un technicien compétent, particulièrement par rapport. <br/><br/><ul><li>à la sécurité du transport vers la zone d&#39;application</li><li>au respect du dosage correct</li><li>à l'utilisation des équipements et des techniques appropriées</li><li>aux conditions météorologiques appropriées</li><li>au respect des délais de ré-entrée (DRE), dont des signaux de prévention dans les langues locales et l'information à l&#39;avance des personnes ou des communautés potentiellement affectées.</li></ul> <br/><br/> Lorsqu&#39;il n&#39;y a pas d&#39;autres informations, le délai de réentrée minimum est de 48 heures pour les produits de la classe II de l&#39;OMS et 12 heures pour les autres produits. Lorsque deux produits ou plus possédant des délais deré- entrée différents sont utilisés en même temps, le délai le plus long s&#39;applique. <br/> <br/> Les méthodes de calcul de dosage et de volume sont examinées et affinées afin de réduire les surplus de mélanges et l&#39;usage excessif de pesticides.  <br/> <br/>Les délais avant récolte après application des pesticides sont stipulés dans la FDS du produit, sur son label ou son étiquette de sécurité ou par les réglementations officielles auxquelles il faut se conformer. Lorsque deux produits ou plus possédant des délais avant récolte différents sont utilisés en même temps, le délai le plus long s&#39;applique.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "YES",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "4.6.6",
+                    "principal_requirement": "<h1>N&#176;:Exigences principales</h1><br/>Des mécanismes sont établis et en érigés en règles pour éviter les contaminations par les pesticides, via une dérive de pulvérisation ou d&#39;autres façons, des zones traitées vers d&#39;autres zones dont toutes les infrastructures et les <u>écosystèmes naturels</u> terrestres et aquatiques. <br/><br/>Ces mécanismes consistent en des barrières végétatives non cultivées, des zones de non-application ou d&#39;autres mécanismes efficaces.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "YES",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "4.6.7",
+                    "principal_requirement": "<h1>N&#176;:Exigences principales</h1><br/>L&#39;application aérienne est uniquement permise selon les conditions exposées en Annexe Chapitre 4 : Agriculture. ",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "YES",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "4.6.8",
+                    "principal_requirement": "<h1>N&#176;:Exigences principales</h1><br/>Les applications de pesticides sont enregistrées. Les enregistrements contiennent : <ul><li>Nom de la marque du produit et ingrédient(s) actif(s)</li><li>Date et heure de l&#39;application</li><li>Lieu et surface (taille) de l&#39;application</li><li>Dosage et volume</li><li>Produit agricole</li><li>Nom(s) des applicateurs</li><li>Ravageur ciblé</li></ul> <br/> La direction du groupe facilite la tenue des dossiers pour les membres du groupe quand c&#39;est nécessaire.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "YES",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "4.6.9",
+                    "principal_requirement": "<h1>N&#176;:Exigences principales</h1><br/>Les containers vides de pesticides et l&#39;équipement d&#39;application sont lavés trois fois et l&#39;eau de rinçage est utilisée dans le dernier lot du mélange à appliquer à la culture. Après l&#39;application des pesticides, l&#39;équipement d&#39;application est lavé trois fois et le mélange en surplus est éliminé de manière à minimiser l'impact négatif sur l&#39;environnement et la santé humaine, en le diluant avec dix fois son volume d&#39;eau propre et appliqué de manière homogène sur le champ qui a été sujet à l&#39;application de pesticides.<br/><br/>Les containers vides de pesticides sont conservés dans une zone fermée à clé de stockage jusqu&#39;à ce qu&#39;ils soient éliminés via une collecte formelle, un programme de recyclage ou retournés au fournisseur. Si le fournisseur n&#39;accepte pas les containers vides, ils doivent être coupés ou perforés pour empêcher d&#39;autres utilisations. <br/> <br/> Les pesticides périmés, obsolètes ou interdits sont retournés au fournisseur ou à l&#39;autorité locale. En absence d'un système de collecte actif, ces produits sont étiquetés et stockés de manière sécurisée et séparée des autres produits dans l&#39;espace fermé à clé.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "YES",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "4.6.10",
+                    "principal_requirement": "<h1>N&#176;:Exigences principales</h1><br/>Les produits agrochimiques et les équipements d&#39;application sont stockés conformément aux instructions du label et de manière à minimiser les impacts négatifs sur l&#39;environnement et la santé humaine. Les produits agrochimiques sont stockés dans leurs containers ou emballages originaux. <br><br/> <ul><li>Sèches, propres, bien ventilées</li><li>Faites de matériel non absorbant</li><li>Fermées à clé et accessibles uniquement aux manipulateurs formés</li><li>Non accessibles aux enfants</li><li>Séparées des produits agricoles, des produits alimentaires et des matériaux d&#39;emballage</li></ul>",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "YES",
+                        "direction_du_group": "NO",
+                        "grande_exploitation_agricole": "NO",
+                        "Petite/grandes": "NO"
+                    }
+                },
+                {
+                    "num": "4.6.11",
+                    "principal_requirement": "<h1>N&#176;:Exigences principales</h1><br/>Les <u> produits chimiques</u> et les équipements d&#39;application sont stockés conformément aux instructions du label et de manière à minimiser les impacts négatifs sur l&#39;environnement et la santé humaine. Les produits chimiques sont stockés dans leurs containers ou emballages originaux. <br><br/> Les installations pour stocker les produits chimiques et les équipements d&#39;application sont :<ul><li>Sèches, propres, bien ventilées, avec un toit robuste et un sol imperméable</li><li>Fermées à clé et accessibles uniquement aux manipulateurs formés</li><li>Séparées des produits agricoles, des produits alimentaires ou des matériaux d&#39;emballage</li><li>Avec un kit d&#39;urgence en cas de fuite</li><li>Avec des signes et des pictogrammes préventifs de sécurité visibles et compréhensibles</li><li>Avec une procédure en cas d&#39;urgence, une zone pour se laver les yeux et une douche en cas d'urgence</li></ul>",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "YES",
+                        "direction_du_group": "NO",
+                        "grande_exploitation_agricole": "NO",
+                        "Petite/grandes": "NO"
+                    }
+                },
+                {
+                    "num": "4.6.12",
+                    "principal_requirement": "<h1>N&#176;:Exigences principales</h1><br/>Un inventaire à jour du stock de pesticides est disponible et maintenu. L&#39;inventaire contient : <ul><li>Date d&#39;achat</li><li>Nom de la marque du produit et ingrédient actif, dont une indication des produits agrochimiques qui sont sur la Liste d&#39;atténuation des risques.</li><li>Volume</li><li>Date d&#39;expiration</li></ul> <br/> Pour les groupes, ceci ne s&#39;applique que pour les stocks centralisés.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "NO",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "4.6.13 N1",
+                    "principal_requirement": "<h1>N&#176;:Amélioration obligatoire</h1><br/>Le matériel de mélange et d&#39;application des produits agrochimiques est calibré au moins une fois par an, après chaque entretien et avant toute utilisation pour un type différent de produits agroagrochimiques",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "YES",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "4.6.14",
+                    "principal_requirement": "<h1>N&#176;:Amélioration librement choisie</h1><br/>L&#39;application est réalisée par des équipes de pulvérisation spécialisées et centralisées.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "NO",
+                        "direction_du_group": "NO",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "NO"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Pratiques de Récoltes et Post-Récoltes",
+            "numero": "4.7",
+            "content": [
+                {
+                    "num": "4.7.1",
+                    "principal_requirement": "<h1>N&#176;:Exigences principales</h1><br/>Les producteurs conservent et optimisent la qualité et la quantité des produits durant la récolte et les manipulations post-récolte. Il s&#39;agit du chargement, de la transformation, de l&#39;emballage, du transport et du stockage. Ils comportent : <br/><br/> <ul><li>Les produits sont récoltés au bon moment et à bon intervalle pour optimiser la qualité</li><li>Les dommages aux plantes pendant la récolte sont minimisés en vue de la future production</li><li>La contamination par des matières étrangères, par des produits de nettoyage et des produits agrochimiques, par des microbes et des ravageurs est évitée.</li><li>Les dégâts causés par l&#39;humidité sont évités</li><li>Les produits sont stockés dans un lieu sombre, bien ventilé, sec et frais</li><li>L&#39;entretien et le nettoyage des outils de récolte et de post-récolte, de la machinerie et des équipements.</li><li>Les matériaux d&#39;emballage utilisés sont appropriés et approuvés pour les produits alimentaires.</li></ul>",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "YES",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "4.7.2 N1",
+                    "principal_requirement": "<h1>N&#176;:Amélioration obligatoire</h1><br/>Les producteurs prennent des mesures pour respecter les <u>Limites maximales de résidus (LMR)</u> fixées par le pays de production et les pays de destination connus du produit. Les mesures contiennent par exemple : <br/><br/> <ul><li>Le respect strict des instructions des étiquettes des produits agrochimiques utilisés en post-récolte</li><li>L&#39;obtention des informations sur les résidus dans le produit, via des propres tests (pas obligatoire) ou des informations via les acheteurs</li><li>Des actions dans le cas où les LMR sont dépassées</li><li>LLa communication à l'acheteur si les LMR sont dépassées</li></ul>",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "NO",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                }
+            ]
+        }
+    ]
+}

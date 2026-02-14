@@ -1,0 +1,184 @@
+{
+    "category": "chapter_3",
+    "name": "Revenu et responsabilité partagées",
+    "content": [
+        {
+            "title": "Coûts de Production et Revenu Vital",
+            "numero": "3.1",
+            "content": [
+                {
+                    "num": "3.1.1",
+                    " text": "<h1>N&#176;:Amélioration librement choisie</h1><br/>La direction du groupe collecte les données sur les facteurs déterminants des coûts de production (ex : coûts des engrais, des produits agrochimiques, travail payé, équipement) et calcule le revenu net d'un culture agricole certifié pour un échantillon des membres du groupe (c&#39;est-à-dire : revenu brut – coûts de production = revenu net) . La direction du groupe partage les données analysées avec les membres du groupe. &#13; <strong>Indicateur </strong>: <ul><li>Coûts de production par kg de produit récolté</li><li>Revenu net issu de la culture certifiée par kg de produit récolté.</li></ul>",
+                    "certif_de_group": {
+                        "direction_du_group": "NO",
+                        "petite_exploitation_agricole": "NO",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "NO"
+                    }
+                },
+                {
+                    "num": "3.1.2",
+                    " text": "<h1>N&#176;:Amélioration librement choisie</h1><br/>Le revenu net réel des ménages des membres du groupe est évalué sur la base de la valeur de référence du revenu vital appliqué à un échantillon de membres. <ul><li>La production totale récoltée certifiée (en kg, en tiges pour les fleurs)  &#13; <strong>Indicateur </strong>: <ul><li>Revenu net moyen et médian</li><li>Écart moyen et médian par rapport à la valeur de référence du revenu vital (monétaire et %)</li><li>&#37; de producteurs atteignant la référence du revenu vital</li></ul>",
+                    "certif_de_group": {
+                        "direction_du_group": "NO",
+                        "petite_exploitation_agricole": "NO",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "NO"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Différentiel de durabilité",
+            "numero": "3.2",
+            "content": [
+                {
+                    "num": "3.2.1",
+                    "principal_requirement": "<h1>N&#176;:Exigences principales</h1><br/>La <u>direction du groupe</u> transfère le montant total du <u>différentiel de durabilité</u> de Rainforest Alliance en espèces ou autre paiement monétaire aux <u>membres du groupe</u> : <ul><li>Au prorata, basé sur les volumes livrés</li><liA temps et d'une manière commode, au moins avant la saison de la récolte suivante, ou au moins une fois par an dans le cas de récoltes continues.</li></ul> &#13; Au moins annuellement, la direction du groupe : <ul><li>Documente le différentiel de urabilité de Rainforest Alliance reçu par volume. Tient des comptes séparées pourles paiements des différentiels de durabilité provenant de chaque acheteur, qui sont clairement distincts du prix du marché, des autres primes, telles que les primes de qualité ou les primes spécifiques au pays et au produit telles que le différentiel de revenu vital.</li><li>Communique aux membres du groupe le différentiel de durabilité reçu pour la culture agricole certifié.</li><li>Documente et rend compte du paiement du différentiel de durabilité de Rainforest Alliance aux membres du groupe.</li></ul> &#13; <strong>Indicateur </strong>: &#13;Montant du différentiel de durabilité de Rainforest Alliance reçu : <ul><li>Montant total reçu au niveau de la direction du groupe</li><li>Montant reçu par volume au niveau des membres du groupe</li></ul>",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "NO",
+                        "direction_du_group": "NO",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "NO"
+                    }
+                },
+                {
+                    "num": "3.2.2",
+                    "principal_requirement": "Le Différentiel de durabilité est dépensé au profit du producteur et/ou des travailleurs. &#13; La direction de l'exploitation agricole rend compte au moins une fois l&#39;an :<ul><li>Du différentiel de durabilité reçu par volume. Des comptes séparés sont tenus pour les paiements des différentiels de durabilité provenant de chaque acheteur et sont clairement distincts du prix du marché, des autres primes, tellesque les primes de qualité ou les primes spécifiques au pays et au produit.</li><li>De la manière dont le différentiel de durabilité a été utilisé, A) au profit du producteur et/ou B) au profit des travailleurs, y compris les catégories spécifiées. Si le Différentiel de durabilité est dépensé au profit des travailleurs, la direction de l&#39;exploitation agricole consulte les représentants des travailleurs sur les priorités et sur l&#39;allocation du Différentiel de durabilité. Le différentiel de durabilité peut être alloué aux catégories suivantes : salaires, conditions de travail, santé et sécurité, et logement.</li></ul> &#13; <strong>Indicateur: </strong> <ul><li>Montant du différentiel de durabilité de Rainforest Alliance reçu (total et par volume)</li><li>Distribution du différentiel de durabilité en % du montant total perçu sur A) l&#39;usage propre et B) les avantages des travailleurs, pour les catégories a) salaires ; b) conditions de travail ; c) santé et sécurité ; d) logement.</li></ul>",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "NO",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "NO",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "3.2.3",
+                    "principal_requirement": "Les volumes vendus comme non certifiés Rainforest Alliance et/ou perdus sont supprimés de la plateforme de traçabilité dans les deux semaines suivant la fin du trimestre au cours duquel l&#39;expédition a eu lieu ou au cours duquel le volume a été perdu &#13;Pour les volumes en bilan massique, veuillez consulter le document SA-S-SD-20 Annexe Chapitre 2 : Traçabilité pour plus de détails sur l&#39;applicabilité.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "NO",
+                        "direction_du_group": "NO",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "NO"
+                    }
+                },
+                {
+                    "num": "3.2.3",
+                    "principal_requirement": "Applicable aux titulaires de certificats de la chaîne d&#39;approvisionnement et aux exploitations agricoles titulaires de certificats s&#39;ils achètent des produits certifiés directement à d&#39;autres exploitations agricoles.<br><br/>Les titulaires de certificats responsables paient le différentiel de durabilité sous la forme d&#39;un paiement monétaire en plus du prix du marché, des primes de qualité ou d&#39;autres différentiels. Le différentiel de durabilité ne peut pas être payé en nature.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "NO",
+                        "direction_du_group": "NO",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "3.2.4",
+                    "principal_requirement": "Les titulaires de certificats responsables ont des accords ou des engagements contractuels clairs en place qui spécifient le montant et d&#39;autres conditions autour  du paiement du différentiel de durabilité. Voir l&#39;annexe S14 pour plus de détails sur l&#39;applicabilité.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "NO",
+                        "direction_du_group": "NO",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "3.2.5",
+                    "principal_requirement": "Le montant total du différentiel de durabilité est payé au moins une fois par an et pas plus tard que la date indiquée dans les termes du paiement préalablement définis pour le produit agricole concerné.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "NO",
+                        "direction_du_group": "NO",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "3.2.6",
+                    "principal_requirement": "La confirmation du paiement du <u>Différentiel de Durabilité</u> est enregistrée sur la plateforme de traçabilité.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "NO",
+                        "direction_du_group": "NO",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "3.2.7",
+                    "principal_requirement": "Pour les cultures agricoles pour lesquels un minimum est défini, les montants payés du Différentiel de Durabilité sont d&#39;au moins le minimum prescrit.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "NO",
+                        "direction_du_group": "NO",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Investissements de durabilité",
+            "numero": "3.3",
+            "content": [
+                {
+                    "num": "3.3.1",
+                    "principal_requirement": "<h1>N&#176;:Exigences principales</h1><br/><br/>La direction définit au moins annuellement les investissements nécessaires pour améliorer la durabilité grâce au modèle de plan d'Investissement de durabilité de Rainforest Alliance. &#13; La direction utilise les sources suivantes pour renseigner les investissements nécessaires : <ul><li>Plan de gestion (dont les résultats de l&#39;Évaluation des capacités de gestion et de ceux de l&#39;Évaluation des risques)</li><li>Rapports d&#39;audits</li><li>Inspections internes et Auto-évaluations</li></ul> &#39; La direction renseigne les Investissements de durabilité monétaires et en nature reçus des acheteurs pour ce plan d'investissement conformément aux catégories d'investissements de Rainforest Alliance. &#13; <strong>Indicateur: </strong><ul><li>Les besoins en investissement spécifiés par catégorie dans les catégories d'investissement définies par Rainforest Alliance.</li><li>Rapports d&#39;audits</li><li>Inspections internes et Auto-évaluations</li></ul>  &#13; La direction renseigne les Investissements de durabilité monétaires et en nature reçus des acheteurs pour ce plan d'investissement conformément aux catégories d'investissements de Rainforest Alliance. &#13; <strong>Indicateur: </strong> <ul><li>Les besoins en investissement spécifiés par catégorie dans les catégories d'investissement définies par Rainforest Alliance.</li><li>Investissements de durabilité reçus des acheteurs</li><li>Distribution des Investissements de durabilité suivant les catégories d'investissement prédéfinies, en &#58; du montant total reçu</li></ul>",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "NO",
+                        "direction_du_group": "NO",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "3.3.2 N1",
+                    "principal_requirement": "<h1>N&#176;:Amélioration obligatoire</h1><br/><br/>La direction du groupe consulte annuellement un représentant des membres du groupe pour définir conjointement les contenus du plan d'investissement. La direction du groupe consulte annuellement les acheteurs sur leurs contributions au plan d'investissement.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "NO",
+                        "direction_du_group": "NO",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "NO"
+                    }
+                },
+                {
+                    "num": "3.3.3 N1",
+                    "principal_requirement": "<h1>N&#176;:Exigences principales</h1><br/><br/>Le gestion de l'exploitation agricole consulte annuellement un(des) représentant(s) des travailleurs pour définir conjointement les contenus du plan d'investissement. Le gestionnaire de l&#39;exploitation agricole consulte annuellementles acheteurs sur leurs contributions au plan d'investissement.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "NO",
+                        "direction_du_group": "NO",
+                        "grande_exploitation_agricole": "NO",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "3.3.4",
+                    "principal_requirement": "<h1>N&#176;:Exigences principales</h1><br/>Applicable aux titulaires de certificats de la chaîne d&#39;approvisionnement et aux exploitations agricoles titulaires de certificats s&#39;ils achètent des produits certifiés directement à d&#39;autres exploitations agricoles.<br/><br/><br/>Le montant total de l&#39;investissement de durabilité est payé au moins une fois par an et pas plus tard qu&#39;à la date définie dans les termes de paiement du produit concerné.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "NO",
+                        "direction_du_group": "NO",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "3.3.5",
+                    "principal_requirement": "<h1>N&#176;:Amélioration librement choisie</h1><br/>La confirmation du paiement de <u>l&#39;Investissement de Durabilité</u> (en nature et en espèces) est enregistrée sur la <u>plateforme de traçabilité.</u>",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "NO",
+                        "direction_du_group": "NO",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "3.3.6",
+                    "principal_requirement": "<h1>N&#176;:Amélioration librement choisie</h1><br/>Les <u>titulaires de certificats</u> ont des accords ou des engagements contractuels clairs en place qui spécifient le montant et d&#39;autres conditions autour des Investissements de durabilité.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "NO",
+                        "direction_du_group": "NO",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                }
+            ]
+        }
+    ]
+}
