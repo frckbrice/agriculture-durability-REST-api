@@ -1,0 +1,45 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    services:
+      postgres:
+        image: postgres:15
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: test_db
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd pg_isready --health-interval 10s --health-timeout 5s --health-retries 5
+
+    env:
+      DATABASE_URL: postgresql://postgres:postgres@localhost:5432/test_db
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Use Node.js 20.x
+      uses: actions/setup-node@v4
+      with:
+        node-version: 20.x
+    - name: Install dependencies
+      run: yarn install --frozen-lockfile
+    - name: Generate Prisma Client
+      run: yarn prisma generate
+    - name: Run Prisma Migrate
+      run: yarn prisma migrate deploy
+    - name: Build
+      run: yarn build
+    - name: Lint
+      run: yarn lint
+    - name: Run tests
+      run: yarn test:cov

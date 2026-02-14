@@ -22,7 +22,7 @@ import {
   Subscription,
   SubscriptionStatus,
 } from '@prisma/client';
-import * as moment from 'moment-timezone';
+import moment from 'moment-timezone';
 import { addMonths, subWeeks } from 'date-fns';
 import { toZonedTime, fromZonedTime, } from 'date-fns-tz';
 

@@ -58,7 +58,9 @@ export class CompanyService {
           },
         });
 
-        // We create the user object here. This is a design decision. because we need to create the ADG along with its company. May be updated later.
+        // We create the user object here. This is a design decision. 
+        // because we need to create the ADG along with its company.
+        //  Could be updated later.
         const new_user = await tx.user.create({
           data: {
             id: <string>user.id,  // we assign the clerk user Id to our Prisma user
@@ -84,7 +86,7 @@ export class CompanyService {
 
 
         this.logger.log(`start emitting company.created`, CompanyService.name);
-        // send message for company created in senwisetool system
+        // send message for company created in Agriculture-durability system
         this.eventEmitter.emit('company.created', result);
         return result;
       });

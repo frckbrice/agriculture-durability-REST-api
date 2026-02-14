@@ -62,3 +62,4 @@ redocly.yaml
 
 # log file
 /src/logs
+/prisma/scripts/create_project_db.sh

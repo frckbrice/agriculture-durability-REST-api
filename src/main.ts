@@ -14,7 +14,7 @@ import * as fs from 'fs';
 import * as https from 'https';
 import { SubscriptionManagementService } from './resources/subscriptions/subscribe.deactivation';
 
-const PORT = process.env.PORT ?? 5000;
+const PORT = process.env.PORT ?? 5005;
 const dev_server_url = `${process.env.LOCAL_API_URL} `;
 const production_server_url = `${process.env.PROD_API_URL} `;
 
@@ -45,10 +45,10 @@ async function bootstrap() {
   app.setGlobalPrefix('v1');
   const config = new DocumentBuilder()
     .addBearerAuth() // bearer auth enabled
-    .setTitle('senwisetool api')
-    .setDescription('The senwisetool  API documentation')
+    .setTitle('Agriculture-durability api')
+    .setDescription('The Agriculture-durability API documentation')
     .setVersion('1.0')
-    .addTag('senwisetool-api')
+    .addTag('Agriculture-durability-api')
     .build();
 
   // override operationIdFactory to make it unique per method
