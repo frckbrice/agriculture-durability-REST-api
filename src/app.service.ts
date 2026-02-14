@@ -5,6 +5,6 @@ import { RequestService } from './global/current-logged-in/request.service';
 export class AppService {
   getHello(): string {
 
-    return 'Welcome To SenWiseTool Server web app!';
+    return 'Welcome To Agriculture-durability Server web app!';
   }
 }

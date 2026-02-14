@@ -36,7 +36,7 @@ export class ListenerService {
       if (company) {
         const res = await this.sendMailService.senMail({
           toEmail: company?.email,
-          subject: `SUCCESSFULL SUBSCRIPTION TO SENWISETOOL ✔`,
+          subject: `SUCCESSFULL SUBSCRIPTION TO AGRICULTURE-DURABILITY ✔`,
           text: 'Thanks for subscribing to our plateform. You can now enjoy all the features of our platform, based on your subscription plan.',
         });
         if (res) {
@@ -70,8 +70,8 @@ export class ListenerService {
       if (company) {
         const res = await this.sendMailService.senMail({
           toEmail: company?.email,
-          subject: `FAILURE OF SUBSCRIPTION TO SENWISETOOL ✔`,
-          text: 'Sorry your subscription to senwisetool platform failed. Please try again',
+          subject: `FAILURE OF SUBSCRIPTION TO AGRICULTURE-DURABILITY ✔`,
+          text: 'Sorry your subscription to Agriculture-durability platform failed. Please try again',
         });
 
         return this.logger.log(
@@ -92,8 +92,8 @@ export class ListenerService {
     try {
       const res = await this.sendMailService.senMail({
         toEmail: payload.email,
-        subject: `${payload.name} COMPANY CREATED IN SENWISETOOL PLATEFORM ✔`,
-        text: 'Thanks for joining us. We are glad you are member of senwisetool plateform. You can now enjoy all the features of our platform.',
+        subject: `${payload.name} COMPANY CREATED IN AGRICULTURE-DURABILITY PLATFORM ✔`,
+        text: 'Thanks for joining us. We are glad you are member of Agriculture-durability platform. You can now enjoy all the features of our platform.',
       });
       if (res) {
         // TODO: send email to Customer company

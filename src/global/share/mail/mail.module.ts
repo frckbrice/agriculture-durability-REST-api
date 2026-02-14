@@ -7,13 +7,13 @@ import * as path from 'path';
   imports: [
     MailerModule.forRoot({
       transport: {
-        host: process.env.SENWISETOOL_HOST,
-        service: process.env.SENWISETOOL_SERVICE_PROVIDER,
+        host: process.env.AGRICULTURE_DURABILITY_HOST,
+        service: process.env.AGRICULTURE_DURABILITY_SERVICE_PROVIDER,
         port: 465,
         secure: true,
         auth: {
-          user: process.env.SENWISETOOL_TRANSPORT_USER,
-          pass: process.env.SENWISETOOL_TRANSPORT_PASSWORD,
+          user: process.env.AGRICULTURE_DURABILITY_TRANSPORT_USER,
+          pass: process.env.AGRICULTURE_DURABILITY_TRANSPORT_PASSWORD,
         },
       },
       defaults: {

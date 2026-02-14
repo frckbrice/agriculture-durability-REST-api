@@ -16,7 +16,13 @@
     "noImplicitAny": true,
     "strictBindCallApply": true,
     "forceConsistentCasingInFileNames": true,
-    "noFallthroughCasesInSwitch": true
-    // "esModuleInterop": true
+    "noFallthroughCasesInSwitch": true,
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+    "lib": [
+      "ES2021",
+      "DOM"
+    ],
+    "moduleResolution": "node"
   }
 }

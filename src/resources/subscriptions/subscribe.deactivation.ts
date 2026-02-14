@@ -9,7 +9,7 @@ import {
   Prisma,
   SubscriptionStatus,
 } from '@prisma/client';
-import * as moment from 'moment-timezone';
+import moment from 'moment-timezone';
 import { PrismaService } from 'src/adapters/config/prisma.service';
 import { SubscriptionEntity } from './entities/subscription.entity';
 import { SubscriptionsService } from './subscriptions.service';
