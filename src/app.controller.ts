@@ -20,7 +20,7 @@ export class AppController {
             font-family: 'Segoe UI', Arial, sans-serif;
           }
           .overlay {
-            background: rgba(34,139,34,0.85);
+            background: rgba(34,139,34,0.45); /* Reduced opacity for lighter overlay */
             min-height: 100vh;
             display: flex;
             flex-direction: column;
