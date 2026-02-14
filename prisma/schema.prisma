@@ -1,0 +1,696 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+
+
+
+//TODO: Check if possible to enable postgis to store geographical points to the database 
+// this is for future use of geo data for analysis and calculations: service to customers.
+
+ generator client {
+  provider        = "prisma-client-js"
+  // previewFeatures = ["postgresqlExtensions"]
+}
+
+datasource db {
+  provider   = "postgresql"
+  url        = env("DATABASE_URL")
+  // extensions = [postgis]
+}
+
+
+enum Role {
+ 
+  PDG 
+  EMPLOYEE
+  AGENT
+  ADG
+  AUDITOR
+  SALES
+  IT_SUPPORT
+  
+}
+
+enum ProjectStatus {
+  DRAFT
+  ARCHIVED
+  ACTIVE
+  DELETED
+  DEPLOYED
+}
+
+enum TypeProject {
+  INITIAL_INSPECTION
+  INTERNAL_INSPECTION
+  AUTO_EVALUATION
+  MAPPING
+  TRAINING
+}
+
+enum UserStatus {
+  ACTIVE
+  INACTIVE
+  BANNED
+}
+
+enum SubscriptionStatus {
+  ACTIVE
+  INACTIVE
+  CANCELLED
+  SUSPENDED
+  APPROVAL_PENDING
+  EXPIRED
+  GRACE_PERIOD
+}
+
+enum PaymentMethod {
+  CARD 
+  PAYPAL 
+  E_CHEQUE
+  CASH
+  INSTANT_BANK_TRANSFER
+}
+
+enum ProductName {
+  BRONZE
+  SILVER
+  GOLD
+}
+
+enum PlanStatus {
+  ON 
+  OFF
+  EXPIRED
+}
+
+enum CompanyStatus {
+  ACTIVE
+  INACTIVE
+  EXPIRED
+}
+
+enum CampaignStatus {
+  OPEN
+  CLOSED
+}
+
+enum MarketType {
+  COCOA
+  COFFEE
+  BANANA
+  WOOD
+  OTHER
+}
+
+enum InvitationStatus {
+  CONFIRMED
+  NOT_CONFIRMED
+}
+
+enum BillingCycle {
+  ANNUAL
+  BIANNUAL
+}
+
+enum IncomeAndShareResponsabilityType {
+  PAYMENT_JUSTIFICATION
+  SUSTENABILITY_DIFFERENTIAL
+  INVESTMENT_MANAGEMENT_PLAN
+}
+
+
+model User {
+  id           String    @id @default(cuid())
+  username     String?
+  email        String?  @unique
+ 
+  password     String?
+  role         Role     @default(PDG)
+
+  first_name    String
+  last_name     String ?
+  phone_number  String ?
+  created_at     DateTime  @default(now())
+  updated_at     DateTime  @updatedAt
+  profileUrls   String ?
+  company_id    String
+  famer_attached_contract_url   String ?
+  company       Company @relation(fields: [company_id], references: [id])
+  status        UserStatus
+  // farm          Farm[] 
+  // receipt       Receipt?
+  // market_audit  Market_audit[]
+  // training_audits Company_training_audit[]
+
+  @@index([id, email, phone_number])
+}
+
+
+model Company {
+  id  String @id @default(cuid())
+  name  String
+  slug  String ?
+  country String
+  email  String @unique
+
+  logo  String ? 
+  // to constraint companies to add an email for reclamations directed to the head office support
+  head_office_email String 
+
+  payment_mode String ?
+  company_paypal_email String ?
+  // the choice of paypal_id is a design decision. we would have chose to use the subscription_status boolean.
+  payment_id String ?
+  payment_phone_number  String ?
+  sector_of_activity String 
+  website  String ?
+  address  String 
+  phone_number  String
+  city  String
+  description String
+  region String
+  timezone String @default("UTC")
+  company_bucket String ?
+
+// the case where the company account will be deactivate
+  status CompanyStatus ? @default(INACTIVE)
+  users  User[]
+  projects Project[]
+  campaigns Company_Campaign[]
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+  trainings Training[]
+  subscription Subscription[]
+  markets Market[]
+
+  @@index([id, status, email ])
+  
+}
+
+model Statistics {
+  id  String @id @default(cuid())
+  company_id  String
+  campaign_id  String
+  project_id String
+  project_type String
+  total_drafts  Int
+  total_archiveds  Int
+  total_deployeds  Int
+}
+
+model Assignee {
+  id  String @id @default(cuid())
+  agentCode  String @unique
+  projectCodes  String[]
+  company_id  String 
+  fullName String?
+  project_type String?
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+  deleted_at DateTime @updatedAt
+
+  @@index([id, projectCodes, company_id])
+}
+
+model Project {
+  id  String      @id @default(cuid())
+  type TypeProject
+  slug  String
+  campaign_id  String
+  company_id   String
+  title  String
+  description  String
+  sector_activity String
+  country  String
+  status ProjectStatus @default(DRAFT)
+  region String
+  city String
+  start_date  DateTime
+  end_date  DateTime
+  project_structure Json    @default("{}")  @db.JsonB
+  another_logo  String ?
+  code String @unique
+  Company     Company @relation(fields: [company_id], references: [id])
+  
+  // created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+  deleted_at DateTime @updatedAt
+  archived_at DateTime @updatedAt
+  draft_at DateTime @default(now())
+  deployed_at DateTime 
+  
+  @@index([id, company_id, start_date, end_date, sector_activity, type, code])
+}
+
+model Project_audit {
+  id String @id @default(cuid())
+  project_id String
+  user_id String
+  type_of_project TypeProject
+  invited_by String ?
+  invitation_status  InvitationStatus ? @default(NOT_CONFIRMED)
+
+  action ProjectStatus ? @default(DRAFT)
+ 
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+}
+
+model Campaign {
+  id  String @id @default(cuid())
+  name  String @unique
+  description  String
+  start_date  DateTime
+  end_date  DateTime
+  status CampaignStatus @default(CLOSED)
+
+  companies Company_Campaign[]
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+  // stockCampaigns Campaign_stock[]
+
+  @@index([id, start_date, end_date, status])
+}
+
+model Company_Campaign {
+  id       String @id @default(cuid())
+  campaign_id  String
+  company_id   String
+  Campaign     Campaign @relation(fields: [campaign_id], references: [id])
+  Company     Company @relation(fields: [company_id], references: [id])
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+
+}
+
+// model Campaign_stock {
+//   id  String @id @default(cuid())
+//   quantity  Int
+//   weight  Int
+//   unit_of_mesure String
+//   campaign_id  String
+//   company_id   String
+
+//   projectId   Campaign @relation(fields: [campaign_id], references: [id])
+//   created_at DateTime @default(now())
+//   updated_at DateTime @updatedAt
+
+//   @@index([campaign_id])
+// }
+
+model Collector_agent {
+  id String @id @default(cuid())
+  name String
+  company_id String
+  project_code String
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+}
+
+
+model Inspection_data {
+  id String @id @default(cuid())
+  project_id String
+  // collected_by String
+  // project_data_url String
+
+  project_data   Json ?  @default("{}")  @db.JsonB
+  // created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+  collected_at DateTime @default(now())
+
+  @@index([project_id])
+}
+
+model Farmer {
+  id           String    @id @default(cuid())
+  company_id String 
+  farmer_name String
+  farmer_contact String
+  council String
+  farmer_ID_card_number String @unique
+  inspection_date String
+  village String
+  certification_year String
+  inspector_name String
+  inspector_contact String
+  weed_application String
+  weed_application_quantity Int
+  pesticide_used String
+  status SubscriptionStatus ? @default(ACTIVE) 
+  pesticide_quantity Int
+  farmer_photos String[]
+  farm Farm[]
+  receipts Receipt[]
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+
+
+  @@index([id, farmer_ID_card_number, farmer_contact, council])
+}
+
+model Farm {
+  id String @id @default(cuid())
+  location Json ?  @default("{}")  @db.JsonB
+  farmer_id String
+
+  village String
+  plantation_creation_date DateTime
+  farm_image_url String  ?
+  estimate_area Float
+  Farmer Farmer @relation(fields: [farmer_id], references: [id])
+  plantation_photos String[]
+  mapping_coodinates Farm_coordinates[]
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+
+  @@index([farmer_id, location])
+}
+
+
+//TODO: check the real data structure to store the geoPoints.
+model Farm_coordinates{
+  id String @id @default(cuid())
+
+  // mapping_date DateTime
+  farm_id String
+  // location Json ?  @default("{}")  @db.JsonB
+
+  coordinates Json ?  @default("{}")  @db.JsonB
+  collector_name String
+  farm Farm @relation(fields: [farm_id], references: [id])
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+
+  @@index([farm_id])
+}
+
+// for trainer in attendance_sheet, we create an object for each trainer
+// this contains: name, signature, proof of concepts
+// here we display them in the form of array of objects inside JSON.
+//   // trainer_signature String[]
+   // trainer_proof_of_competency String[]
+model Attendance_sheet {
+  id String @id @default(cuid())
+  date String
+  title String
+  modules String[]
+  trainers Json @default("[{}]")  @db.JsonB
+  location String
+  report_url String
+ 
+  photos String[]
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+  training_id String
+  training Training @relation(fields: [training_id], references: [id])
+  participants Participants[]
+}
+
+model Participants {
+    id String @id @default(cuid())
+    attendence_sheet_id String
+    attendence_sheet Attendance_sheet @relation(fields: [attendence_sheet_id], references: [id])
+    name String
+    organization String ?
+    telephone String
+    email String
+    signature String
+    village String
+  }
+
+model Training {
+  id String @id @default(cuid())
+  location String
+  title String
+  slug String ?
+  modules String[]
+  start_date DateTime
+  code String ? @unique
+  end_date DateTime
+  status ProjectStatus @default(DRAFT)
+  company_id  String
+  company Company @relation(fields: [company_id], references: [id])
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+  training_session Attendance_sheet[]
+  // training_audits Company_training_audit[]
+
+  deleted_at DateTime @updatedAt
+  archived_at DateTime @updatedAt
+  draft_at DateTime @default(now())
+  deployed_at DateTime 
+
+  @@index([company_id, start_date, end_date, title, id])
+}
+
+model Subscription {
+  id                      String @id @default(cuid())
+  plan_id                 String
+  company_id              String
+
+  start_date              DateTime
+  end_date                DateTime
+  status                  SubscriptionStatus   @default(INACTIVE)
+
+  payment_mode            String
+  last_notification_date       DateTime ? @updatedAt
+  payment_id              String ?  @default("") @unique()
+  grace_period_end        DateTime ? @updatedAt
+
+  company                 Company @relation(fields: [company_id], references: [id])
+  price                   Price_plan @relation(fields: [plan_id], references: [id])
+  created_at              DateTime @default(now())
+  updated_at              DateTime @updatedAt
+
+  @@index([company_id, plan_id, status, id])
+}
+
+
+model Price_plan {
+  id                 String @id @default(cuid())
+  // active             Boolean      @default(false)
+  status             PlanStatus   @default(OFF)
+  price              String
+  currency           String       @default("USD")
+  
+  product_name       ProductName @default(BRONZE)
+  price_type         String    @default("Fixed pricing")
+  plan_name          String    @unique
+  description        String
+  billing_cycle      BillingCycle @default(ANNUAL)
+  number_of_billing_cycles String ?  @default("Unlimited")
+  auto_renewal       Boolean ?
+
+  cancellation_policy Json ?  @default("{}")  @db.JsonB
+  subscription Subscription[]
+
+  // price_plan_requirement Price_plan_requirement[]
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+
+  
+  @@index([id,plan_name])
+}
+
+
+// model Requirement {
+//   id String @id @default(cuid())
+//   name String
+//   content Json ?  @default("{}")  @db.JsonB
+//   created_at DateTime @default(now())
+//   updated_at DateTime @updatedAt
+//   price_plan_requirement Price_plan_requirement[]
+//   // required_norm String
+//   // number_of_requirements Int
+//   // number_of_applicable_requirements Int
+//   // number_of_non_appplicable_requirements Int 
+//   // percentage_applicable Int
+// }
+
+// model Price_plan_requirement {
+//   id String @id @default(cuid())
+//   req_id String
+//    price_plan_id String
+//   requirement Requirement @relation(fields: [req_id], references: [id])
+//   price_plan Price_plan @relation(fields: [ price_plan_id], references: [id])
+//   created_at DateTime @default(now())
+//   updated_at DateTime @updatedAt
+
+//   @@index([req_id,  price_plan_id])
+// }
+
+// model Market_audit {
+//   id String @id @default(cuid())
+//   user_id String
+//   market_id String
+//   user User @relation(fields: [user_id], references: [id])
+//   market Market @relation(fields: [market_id], references: [id])
+//   created_at DateTime @default(now())
+//   updated_at DateTime @updatedAt
+// }
+
+model Market {
+  id String @id @default(cuid())
+  company_id String
+  start_date DateTime
+  end_date DateTime
+  // market_number Int
+  price_of_theday Int
+  supplier String
+
+  description String
+  location String 
+  // each produc  belongs to specific campaign.
+  campaign_id String
+  type_of_market MarketType @default(COCOA)
+  bordereau_vente_url String ?
+  bon_entree_magazin_url String ?
+  accompanying_url String ?
+  transmission_url String ?
+
+  status CampaignStatus @default(OPEN) // to specify if the market is closed or open. we are just re-using the Status already created for campain
+  // when the market is closed we generate a code that represent the stock for that market.
+  code String ? @unique
+  // this represnt the total number of bags bought during this market.
+  product_quantity Int ?
+  company Company @relation(fields: [company_id], references: [id])
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+  // market_audit Market_audit[]
+  transaction Transaction[]
+  receipts Receipt[]
+
+
+  @@index([company_id, start_date, end_date, code, status])
+}
+
+model Receipt {
+  id String @id @default(cuid())
+  market_id String 
+  village String
+  farmer_id String 
+
+  date DateTime 
+  weight String
+  humidity String
+  net_weight Int
+  agent_name String
+  refraction String
+  price_per_kg String
+  total_price Float
+  currency String
+  //total_weight String
+
+  salePhotoUrl String[]
+
+  agent_signature String
+  farmer_signature String
+  gpsLocation Json
+
+  product_name String
+
+
+  farmer Farmer @relation(fields: [farmer_id], references: [id])
+  market Market @relation(fields: [market_id], references: [id])
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+
+  @@index([market_id, farmer_id, date, id])
+}
+
+model Transaction {
+  id String @id @default(cuid())
+  market_number String @unique
+  date String
+
+  level_of_traceability String
+  driver_name String?
+  // quantity Int 
+  humidity Int
+  net_weight Float @default(0)
+  vehicule_immatriculation_number String ?
+
+  // humidity_level_of_product String?
+  number_of_bags Int ?
+  number_of_bags_for_transmission Int ?
+  sender_name String ?
+  receiver_name String ?
+  // TODO: cross check the importance of these signatures 
+  sender_signature String ?
+  driver_signature String ?
+  product_quality String ? 
+
+  number_of_receipts String ?
+  upload_status String ?
+  
+  min_com_sig String ?
+  minister_agent_name String ?
+  date_transmission String ?
+
+  market Market @relation(fields: [market_number], references: [id])
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+
+  @@index([market_number, date, id,date_transmission ])
+}
+
+// model Company_training_audit {
+//   id String @id @default(cuid())
+//   user_id String
+//   user User @relation(fields: [user_id], references: [id])
+//   training_id String
+//   training Training @relation(fields: [training_id], references: [id])
+// }
+
+// Table for chapter 4 Agriculture
+model Agriculture {
+  id               String @id @default(cuid())
+  company_id       String
+  activity_title   String
+  pictures_url     String[]
+  documents_url    String[]
+  pv_url           String[]
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+}
+
+model Social {
+  id             String @id @default(cuid())
+  company_id       String
+  activity_title   String
+  pictures_url     String[]
+  documents_url    String[]
+  pv_url           String[]
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+}
+
+model Environment {
+  id             String @id @default(cuid())
+  company_id       String
+  activity_title   String
+  pictures_url     String[]
+  documents_url    String[]
+  pv_url           String[]
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+}
+
+model RevenuEtResponsabilitePartager {
+  id                 String @id @default(cuid())
+  company_id         String
+  agreement_pv       String[]
+  proof_of_expenses  String[]
+  proof_of_paiement  String[]
+  pv_url            String[]
+  first_buyer_proof String[]
+  producer_payment_proof String[]
+  management_plan String[]
+  type             IncomeAndShareResponsabilityType
+  created_at       DateTime @default(now())
+  updated_at       DateTime @updatedAt
+}

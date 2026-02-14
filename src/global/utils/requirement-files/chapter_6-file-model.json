@@ -1,0 +1,492 @@
+{
+    "category": "chapter_6",
+    "name": "Environnement",
+    "content": [
+        {
+            "title": "Forêts, autres Écosystèmes Naturels et Aires Protégées",
+            "numero": "6.1",
+            "content": [
+                {
+                    " text": "<h1>N&#176;:Exigences principales</h1><br/>Depuis le 1er janvier 2014, les forêts naturelles et les autres écosystèmes naturels n’ont pas été convertispour la production agricole ou pour d’autres usages des terres.",
+                    "num": "6.1.1",
+                    "certif_de_group": {
+                        "direction_du_group": "YES",
+                        "petite_exploitation_agricole": "YES",
+                        "grande_exploitation_agricole": "No",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "6.1.2",
+                    " text": "La production ou la transformation n’a pas lieu dans les aires protégées ou leurs zones tampons désignées officiellement, sauf là où elle est conforme à la législation applicable.",
+                    "certif_de_group": {
+                        "direction_du_group": "YES",
+                        "petite_exploitation_agricole": "YES",
+                        "grande_exploitation_agricole": "No",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "6.1.3",
+                    " text": "La direction inclut les mesures d’atténuation provenant de l’Outil d’évaluation des risques dans la section 1.3.1 en regard des Hautes valeurs de conservation dans le plan de gestion (1.3.2). La direction met en œuvre ces mesures.",
+                    "certif_de_group": {
+                        "direction_du_group": "NO",
+                        "petite_exploitation_agricole": "YES",
+                        "grande_exploitation_agricole": "NO",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "6.1.4",
+                    " text": "<h1>N&#176;:Amélioration obligatoire</h1><br/>La direction inclut les mesures d’atténuation provenant de l’Outil d’évaluation des risques dans la section 1.3.1 en regard des Hautes valeurs de conservation dans le plan de gestion (1.3.2). La direction met en œuvre ces mesures.",
+                    "certif_de_group": {
+                        "direction_du_group": "NO",
+                        "petite_exploitation_agricole": "NO",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "NO"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Conservation et Amélioration des Écosystèmes Naturels et de la Végétation Naturelle",
+            "numero": "6.2",
+            "content": [
+                {
+                    " text": "<h1>N&#176;:Exigences principales</h1><br/>La direction élabore et met en œuvre un plan pour conserver les écosystèmes naturels. Le plan se base sur la carte requise dans la section 1.2.10 et la section sur les écosystèmes naturels de l’Outil d’évaluation des risques dans la section 1.3.1 et est mis à jour annuellement.",
+                    "num": "6.2.1",
+                    "certif_de_group": {
+                        "direction_du_group": "NO",
+                        "petite_exploitation_agricole": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "6.2.2 ",
+                    " text": "Les exploitations agricoles conservent tous les arbres des forêts restantes, sauf lorsqu'ils constituent un danger pour les personnes ou les infrastructures. Les autres arbres  autochtones de l’exploitation agricole et leurs coupes sont gérés durablement de manière à ce que la même quantité et la mêmequalité d’arbres soient maintenues sur l’exploitation agricole.",
+                    "certif_de_group": {
+                        "direction_du_group": "YES",
+                        "petite_exploitation_agricole": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "6.2.3",
+                    " text": "<h1>N&#176;:Exigences principales</h1><br/>Les producteurs maintiennent le couvert de végétation naturelle et la direction en fait le suivi et rédige des apports annuels sur l’indicateur dès la première année <br/>S'il y a moins de 10% de la surface totale sous couvert de végétation naturelle ou moins de 15% pour les exploitations agricoles cultivant des cultures tolérantes à l’ombre, alors la direction établit des objectifs et prend des mesures pour que les exploitations agricoles atteignent ces seuils comme le requiert la section 6.2.4. <br/>La végétation naturelle est composée en majorité d’espèces indigènes ou adaptées localement, ressemblant à la composition en espèces et à la structure de la végétation qui existe ou existerait en l’absence d’interférence humaine. La végétation naturelle peut inclure l'un ou plusieurs des types suivant (non exclusifs) : &#58; <br/> <ul>Zones ripariennes tampons<li></li><li>Zones de conservation au sein de l’exploitation agricole</li><li>Végétation naturelle dans les systèmes agroforestiers</li><li>Plantations aux niveaux des limites/frontières, barrières et palissades vivantes autour des logements et des infrastructures ou autres façons.</li><li>Zones de conservation et de restauration en dehors de l’exploitation agricole certifiée qui fournissent effacement une protection à long terme des zones concernées (pour au moins 25 ans) et produisent une valeur de conservation et un statut de protection supplémentaires au statu quo</li></ul> <br/> <strong>Indicateur :</strong><br/> <ul><li>&#37; de la superficie totale de l’exploitation agricole sous couverture de végétation naturelle</li></ul>",
+                    "certif_de_group": {
+                        "direction_du_group": "YES",
+                        "petite_exploitation_agricole": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Évaluation et Résolution du travail des enfants, du travail forcé, de la discrimination, de la violence et du harcèlement sur le lieu de travail",
+            "numero": "6.1",
+            "content": [
+                {
+                    " text": "<h1>Amélioration obligatoire</h1><br/><br/><h1><br/>Il y a une couverture de végétation naturelle<ul><li>sur au moins 10% de la surface totale des exploitations agricoles cultivant des cultures non tolérantes à l’ombre</li><li>sur au moins 15% de la surface totale des exploitations agricoles cultivant des cultures tolérantes à l’ombre</li><li></ul>",
+                    "num": "6.1.8",
+                    "certif_de_group": {
+                        "direction_du_group": "NO",
+                        "petite_exploitation_agricole": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Liberté d&#39;Association et de Convention Collective",
+            "numero": "6.2",
+            "content": [
+                {
+                    "num": "6.2.1",
+                    "principal_requirement": "<h1>Exigences principales</h1><br/><br/>Les travailleurs ont le droit de former et de rejoindre une organisation de travailleurs de leur choix et de prendre part aux négociations collectives, sans autorisation préalable de l&#39;employeur et conformément à la législation applicable. Les représentants des travailleurs sont élus démocratiquement parmi les travailleurs lors des élections libres et normales. <br/> Avant de commencer leur emploi, la direction informe les travailleurs de leurs droits grâce à une politique écrite dans une langue qu&#39;ils comprennent. La politique écrite sur la liberté d&#39;association et les conventions collectives est affichée de manière visible tout le temps sur le lieu de travail. <br/> Si le droit de liberté d&#39;association et de convention collective est restreint par la loi, la direction ne doit pas entraver le développement de moyens parallèles d&#39;associations libres et indépendantes, de conventions et de dialogue avec la direction. <br/> <b>Convention de l&#39;OIT (n° 87) sur la liberté d&#39;association et la protection du droit syndical, 1948 Recommandation de l&#39;OIT (n° 143) concernant les représentants des travailleurs, 1971</b> <br/> Pour les Petites exploitations agricoles, l&#39;exigence s&#39;applique uniquement si elles embauchent : <br/> -10 travailleurs temporaires ou plus intervenant chacun pendant 3 mois consécutifs ou plus, et/ou <br/> -- 50 travailleurs temporaires ou plus par année calendaire.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "YES",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "6.2.2",
+                    "principal_requirement": "Les travailleurs ne font pas l&#39;objet de discrimination ou de représailles en conséquence d&#39;appartenance à ou d&#39;activités dans une organisation de travailleurs ou un syndicat. La direction ne sanctionne pas, ne soudoie pas etn'influence pas, d&#39;une manière ou d'une autre, les membres des syndicats ou les représentants des travailleurs. Les dossiers de licenciements sont conservés et doivent contenir les raisons du licenciement et l&#39;affiliation des travailleurs à un syndicat ou à une organisation de travailleurs. La direction n&#39;interfère pas dans les affaires internes des organisations de travailleurs et/ou des syndicats, ni dans les élections ou les fonctions liées à l&#39;adhésion à ces organisations.<br/> <b>Convention de l&#39;OIT sur le droit d'organisation et de négociation collective, 1949 (n°98) Recommandation de l&#39;OIT (n° 143) concernant les représentants des travailleurs, 1971</b> <br/> Pour les Petites exploitations agricoles, l&#39;exigence s&#39;applique uniquement si elles embauchent : <br/> - 10 travailleurs temporaires ou plus intervenant chacun pendant 3 mois consécutifs ou plus, et/ou <br/> - 50 travailleurs temporaires ou plus par année calendaire.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "YES",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "NO",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "6.2.3",
+                    "principal_requirement": "La direction fournit aux représentants des travailleurs des heures rémunérées en dehors de leur travail pour mener à bien leurs fonctions syndicales et participer aux réunions &#13; Si nécessaire, la direction met des moyens à la disposition des représentants des travailleurs, y compris des espaces de réunion, des moyens de communication et des services de garde d&#39;enfants. <br/> La direction fournit aux organisations de travailleurs et/ou syndicats un tableau d&#39;affichage pour diffuser les informations relatives à leurs activités. <br/> La direction établit un véritable dialogue avec les représentants des travailleurs librement choisis, afin de soulever et remédier aux questions liées aux conditions et modalités de travail. <br/> La direction archive les procès-verbaux des réunions avec les organisations de travailleurs et/ou syndicats. <br/> <b>Convention de l&#39;OIT (n° 135) concernant les représentants des travailleurs, 1971 Recommandation de l&#39;OIT (n° 143) concernant les représentants des travailleurs, 1971</b>Pour les Petites exploitations agricoles, l&#39;exigence s&#39;applique uniquement si elles embauchent : <br/> - 10 travailleurs temporaires ou plus intervenant chacun pendant 3 mois consécutifs ou plus, et/ou <br/> - 50 travailleurs temporaires ou plus par année calendaire.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "YES",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "6.2.4 N2",
+                    "principal_requirement": "<h1>Amélioration obligatoire</h1><br/><br/>TIl y a une couverture de végétation naturelle &#13; <ul><li>sur au moins 10% de la surface totale des exploitations agricoles cultivant des cultures non tolérantes à l’ombre</li><li>sur au moins 15% de la surface totale des exploitations agricoles cultivant des cultures tolérantes à l’ombre</li></ul>",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "YES",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "6.2.5",
+                    "principal_requirement": "<h1>Compteur intelligent librement choisi</h1><br/><br/>Les exploitations agricoles possédant des cultures tolérantes à l’ombre travaillent à des systèmes agroforestiers ayant une couverture d’ombrage optimale et une diversité en espèces qui suivent les Paramètres de référence de la diversité en espèces et du couvert d'ombrage. <strong>Indicateur: </strong><br/> <ul><li>% du couvert d’ombrage moyen sur la portion de l’exploitation agricole ou du groupe d'exploitations agricoles cultivant des cultures tolérantes à l’ombre</li><li>nombre moyen d’espèces d’arbres d’ombrage par hectare de cultures tolérantes à l’ombre</li></ul>",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "YES",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "6.2.6",
+                    "principal_requirement": "Les exploitations agricoles augmentent les surfaces sous végétation naturelle au-delà des chiffres requis par l’exigence 6.2.3. <br/> <strong>Indicateur: </strong><br/> <ul><li>% de la superficie totale de l’exploitation agricole sous couverture de végétation naturelle</li></ul>",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "YES",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Zone Riparienne Tampon",
+            "numero": "6.3",
+            "content": [
+                {
+                    "num": "6.3.1",
+                    "principal_requirement": "Les exploitations agricoles maintiennent les zones ripariennes tampons existantes adjacentes aux écosystèmes aquatiques. ",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "YES",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "NO",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "6.3.2",
+                    "principal_requirement": "Les producteurs maintiennent les dispositifs de sécurité supplémentaires suivants pour la protection de l’eau potable dans le cas où l’exploitation agricole est située à moins de 50 m d’une rivière, d'un lac ou d'une autre étendue d’eau qui est fréquemment utilisée comme source principale d’eau de boisson.<br/> <ul><li>Maintenir ou établir une zone riparienne tampon qui mesure au moins 10 mètres de large.</li><li>Ajouter une zone extérieure supplémentaire de 20m de non-application (total 30m) où aucun pesticide ni engrais n’est utilisé</li><li>Ajouter une zone supplémentaire de 20m (entre 30 et 50m de l’étendue d’eau) dans laquelle les pesticides sont appliqués uniquement via une application ciblée, mécanique ou manuelle</li></ul>",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "YES",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "NO",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "6.3.3 N1",
+                    "principal_requirement": "<h1>Amélioration obligatoire</h1><br/><br/> <ul><li>5 m de largeur horizontale le long des deux côtés des cours d’eau mesurant entre 1 et 5 m de large.</li><li>Pour les exploitations agricoles < 2 ha, la largeur de la zone tampon peut être réduite à 2 m sur les deux côtés</li><li>8 m de largeur horizontale le long des deux côtés des cours d’eau mesurant entre 5 et 10 m de large, et autour des sources, des zones humides et des autres étendues d’eau</li><li>15 m de largeur horizontale le long des deux côtés des rivières mesurant plus de 10 mètres de large</li></ul> <br/>Aucune zone de non-application supplémentaire n’est requise le long des zones ripariennes tampons totalement établies.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "YES",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "NO",
+                        "Petite/grandes": "YES"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Protection de la Faune Sauvage et de la Biodiversité",
+            "numero": "6.4",
+            "content": [
+                {
+                    "num": "6.4.1",
+                    "principal_requirement": "<h1>Exigences principales</h1><br/><br/>Les animaux et plantes menacés ne sont pas chassés, tués, pêchés, cueillis ou trafiqués. De plus, les producteurs et les travailleurs ne chassent pas d’autres animaux, sauf pour les exceptions suivantes. <br/><br/> <ul><li>Les producteurs des petites exploitations agricoles peuvent chasser les animaux non menacés uniquement pour des usages non commerciaux</li><li>Les producteurs peuvent chasser les espèces de vertébrés ravageurs sauvages sur l’exploitation agricole uniquement en suivant le plan de Protection Intégrée des Cultures (PIC) de l’exploitation agricole et uniquement en cas de dernier recours.</li></ul> <br/> Les substances toxiques ou explosives ne sont jamais utilisées pour la chasse, la pêche ou pour le contrôle des ravageurs.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "YES",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "6.4.2",
+                    "principal_requirement": "Les producteurs ne détiennent pas de de faune sauvage en captivité. Les animaux sauvages captifs qui étaient présents sur l’exploitation agricole avant la première date de certification sont envoyés dans des refuges professionnels ou peuvent être gardés uniquement pour des raisons non commerciales pour le restant de leurs vies. Les animaux sauvages captifs et les animaux des exploitations agricoles sont traités suivant les cinq libertés pour le bien-être animal.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "YES",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "NO",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "6.4.3",
+                    "principal_requirement": "Les producteurs n'introduisent pas intentionnellement d’espèces envahissantes et n’en relâchent pas. Les producteurs ne relâchent pas d’espèces envahissantes existantes ou leurs parties dans les écosystèmes aquatiques",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "YES",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "NO",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "6.4.4",
+                    "principal_requirement": "Les producteurs n’utilisent pas la faune sauvage pour la transformation ou la récolte des cultures agricoles (ex : les civettes pour le café, les singes pour les noix de coco, etc.)",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "YES",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "NO",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "6.4.5",
+                    "principal_requirement": "L’érosion par l’eau et le vent est réduite via des pratiques telles que la revégétalisation des zones en pentes et l’aménagement en terrasses.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "YES",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "NO",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "6.4.6",
+                    "principal_requirement": "Le feu n’est pas utilisé pour préparer ou nettoyer les champs, sauf lorsqu’il est spécifiquement justifié dans le plan de PIC.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "YES",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "NO",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "6.4.7 N1",
+                    "principal_requirement": "<h1>Amélioration obligatoire</h1><br/><br/>Les producteurs minimisent les conflits homme-faune qui affectent les travailleurs, la faune sauvage, les cultures ou les biens de l’exploitation agricole en utilisant des mesures d’atténuation localement appropriées. Ces mesures peuvent consister en l'implantation d'infrastructures, de barrières et de corridors mais ne doivent pas inutilement restreindre la mobilité de la faune sauvage ou son accès à l’eau ou aux autres ressources. Les travailleurs sont formés aux procédures et aux réponses 'urgence en cas de dommages aux cultures ou d’attaques de la faune sauvage.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "NO",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "NO",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "6.4.8 N1",
+                    "principal_requirement": "a direction du groupe soutient les producteurs pour minimiser les conflits homme-faune qui affectent les producteurs, les travailleurs, la faune sauvage, les cultures ou les biens de l’exploitation agricole en utilisant des mesures d’atténuation localement appropriées. Ces mesures peuvent consister en l'implantation d'infrastructures, de barrières et de corridors mais ne doivent pas inutilement restreindre la mobilité de la faune sauvage ou son accès aux ressources telles que l’eau",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "NO",
+                        "direction_du_group": "NO",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "NO"
+                    }
+                },
+                {
+                    "num": "6.4.9 N1",
+                    "principal_requirement": "Les producteurs prennent des mesures pour contenir et réduire les espèces envahissantes existantes. ",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "YES",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Conservation et Gestion de L’Eau",
+            "numero": "6.5",
+            "content": [
+                {
+                    "num": "6.5.1",
+                    "principal_requirement": "<h1>Exigences principales</h1><br/><br/>La direction respecte la législation applicable concernant les prélèvements d’eau de surface ou d’eau souterraine pour des raisons agricoles, domestiques ou de transformation. <br/> Si besoin, la conformité est prouvée par le biais d’une licence ou d’un permis (ou d’une demande en attente).",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "NO",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "6.5.3",
+                    "principal_requirement": "Les systèmes de distribution de l’eau ou d'irrigation sont entretenus pour optimiser la productivité des cultures tout en minimisant les pertes en eau, l’érosion et la salinisation.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "NO",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "6.5.4",
+                    "principal_requirement": "<h1>Compteur Intelligent obligatoire</h1><br/><br/>Les systèmes de distribution de l’eau ou d'irrigation sont ntretenus pour optimiser la productivité des cultures tout en minimisant les pertes en eau, l’érosion et la salinisation..<br/> <ul><li>l’évapotranspiration des cultures à différentes étapes de leur croissance</li><li>les conditions des sols</li><li>les modalités des précipitations</li></ul> <br/> Les producteurs enregistrent la quantité d’eau utilisée pour l’irrigation dès la première année. <strong>Indicateur : • Eau utilisée pour l’irrigation au total et par unité de produit (L, L/kg)</strong>",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "NO",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "6.5.5",
+                    "principal_requirement": "La direction prend des mesures pour réduire l’utilisation de l’eau utilisée pour la transformation par unité de produit. L’utilisation et la réduction de l’eau sont suivies et documentées dès la première année.<br/>Pour la Direction du groupe, c’est applicable si les groupes possèdent des installations de transformation centrales. <br/><strong>Indicateur :</strong> <ul><li>Utilisation de l’eau pour la transformation, au total et par unité de produit final quittant l'exploitation agricole (L, L/kg)</li></ul> ",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "NO",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "6.5.6",
+                    "principal_requirement": "Les producteurs utilisent les eaux de pluie collectées pour l’irrigation et/ou à des fins agricoles.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "YES",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "6.5.7",
+                    "principal_requirement": "Les producteurs participent à une initiative ou à un comité local du bassin versant et prennent des mesures pour aider à maintenir ou à restaurer la santé du bassin versant dans le cadre de ce processus collectif. La nature de la participation et les actions entreprises sont documentées.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "YES",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Gestion et eaux usées",
+            "numero": "6.6",
+            "content": [
+                {
+                    "num": "6.6.1",
+                    "principal_requirement": "<h1>Exigences principales</h1><br/><br/>Des tests des eaux usées issues des transformations sont réalisés à tous les points de déversements durant les périodes représentatives de l’opération et les résultats sont documentés<br> Pour les groupes d’exploitations agricoles, les tests sont réalisés dans toutes les installations de transformation (collectives) gérées par le groupe et pour un échantillon représentatif des opérations de transformation membres comprenant les différents types de systèmes de traitements.<br/> Les eaux usées issues des opérations de transformation déversées dans les écosystèmes aquatiques sont conformes aux paramètres légaux de qualité des effluents. En l’absence de ces paramètres, elles se conforment aux paramètres des effluents. <br/>Les eaux usées provenant des opérations de transformation ne doivent pas être mélangées avec de l’eau propre afin de se conformer à ces paramètres. <br/>",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "NO",
+                        "direction_du_group": " YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "6.6.2",
+                    "principal_requirement": "Les eaux usées anthropiques, les boues et les autres eaux usées ne sont pas utilisées pour les activités de production et/ou de transformation. Les effluents ne sont pas déversés dans les écosystèmes aquatiques sauf s'ils ont été traités. <br/> Pas applicable aux petites exploitations agricoles : <br/> Les déversements traités prouvent qu’elles respectent les paramètres légaux de qualité des effluents ou, en leur absence, les paramètres des effluents.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "YES",
+                        "direction_du_group": " YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "6.6.3",
+                    "principal_requirement": "Les eaux usées issues des opérations de transformation ne sont pas appliquées sur les terres sauf si elles ont subi un traitement pour enlever les particules et les toxines. <br/>Si les eaux usées traitées sont utilisées pour l’irrigation, elles doivent être conformes aux paramètres des effluents pour l’irrigation en plus des paramètres des effluents.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "YES",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Gestion des Déchets",
+            "numero": "6.8",
+            "content": [
+                {
+                    "num": "6.8.1",
+                    "principal_requirement": "Les déchets sont stockés, traités et éliminés de façons à ce qu’ils ne présentent pas de risques pour la sécurité ou la santé des hommes, des animaux ou des écosystèmes naturels. Les déchets sont stockés et éliminés uniquement dans des zones dédiées et ne sont pas jetés dans les écosystèmes aquatiques ou naturels. Les déchets non organiques ne sont pas laissés sur le terrain.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "YES",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "6.8.2",
+                    "principal_requirement": "Les producteurs ne brûlent pas les déchets, sauf dans des incinérateurs conçus techniquement pour le type particulier de déchets.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "YES",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "6.8.3 N1",
+                    "principal_requirement": "Les producteurs séparent et recyclent les déchets suivant les options disponibles de gestion, de recyclage et d’élimination des déchets. Les déchets organiques sont  compostés, transformés pour une utilisation organique ou utilisés comme intrant pour d’autres raisons.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "NO",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Efficacité Énergétique",
+            "numero": "6.8",
+            "content": [
+                {
+                    "num": "6.8.1",
+                    "principal_requirement": "La direction consigne par écrit les types de sources d’énergie et l’énergie utilisée pour la production et la transformation des produits certifiés.<br/> <br/>Cette exigence s’applique à la direction du groupe uniquement si le groupe concerné utilise une source d’énergie pour les processus de transformation.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "NO",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "6.8.2",
+                  "principal_requirement": "La direction fixe des objectifs pour augmenter l’efficacité de l’utilisation de l’énergie et pour réduire la dépendance en sources d’énergie non renouvelables. Les progrès sont suivis et des comptes-rendus sont rédigés annuellement. <br/> Pour la Direction du groupe, c’est applicable si les groupes utilisent l’énergie pour la transformation. <br/> <strong>Indicateurs: </strong> <ul><li>Les quantités d’énergie renouvelable et non renouvelable utilisées, par type (ex : volume de pétrole, kW/h d’électricité, quantité d’énergie de la biomasse)</li><li>Utilisation totale d’énergie</li><li>Utilisation totale d’énergie par kg de produit</li></ul>",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "NO",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "6.8.3 N1",
+                    "principal_requirement": "<h1>Amélioration obligatoire</h1><br/><br/>Si l’énergie de la biomasse est utilisée pour les opérations de  ransformation et/ou d'utilisation domestique, les producteurs minimisent les effets directs et indirects de l'utilisation de la biomasse sur les écosystèmes naturels via des actions telles que : <ul><li>Planter des arbres pour augmenter la disponibilité de l’énergie de la biomasse à l’intérieur ou autour de l’exploitation agricole</li><li>Lorsque de la biomasse est achetée, des sources non associées à la destruction de forêts ou d’autres écosystèmes naturels sont requises.</li></ul>",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "NO",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                }
+            ]
+        },
+        {
+            "content": [
+                {
+                    "num": "6.9.1",
+                    "principal_requirement": "<h1>Compteur intelligent librement choisi</h1><br/><br/>Les producteurs documentent les émissions nettes de gaz à effet de serre (GES) provenant des sources principales des opérations de production et de transformation. Elles incluent les émissions provenant de l’utilisation de carburants fossiles et de l’électricité, des engrais, des déchets et des eaux usées et des changements d'utilisation des sols.<br/>Les producteurs établissent des objectifs de réduction des GES, élaborent et mettent en œuvre une stratégie afin de répondre à ces objectifs, et les suivre annuellement. <br/> <strong>Indicateurs:</strong> <ul><li>Émissions nettes annuelles totales de GES provenant des sources indiquées ci-dessus (tonnes de CO2e)</li><li>Émissions nettes de GES provenant des sources indiquées ci-dessus par unité de produit final (tonnes de CO2e par unité)</li></ul>",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "NO",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                }
+            ],
+            "numero": 6.9,
+            "title": "Reduction des gaz à effet de serre"
+        }
+    ]
+}

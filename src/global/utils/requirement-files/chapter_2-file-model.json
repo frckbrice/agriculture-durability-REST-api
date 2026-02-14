@@ -1,0 +1,214 @@
+{
+    "category": "chapter_2",
+    "name": "Traçabilité",
+    "content": [
+        {
+            "title": "Traçabilité",
+            "numero": "2.1",
+            "content": [
+                {
+                    " text": "<h1>N&#176;:Exigences principales</h1><br/><br/>La production totale certifiée et la production certifiée pour chaque producteur (en kg, en tiges pour les fleurs) est estimée une fois par an. Les calculs sont basés sur une méthodologie fiable d&#39;estimation des rendements (en kg/ha, en tiges/ha pour les fleurs) d'un échantillon représentatif d&#39;exploitations agricoles ou d&#39;unités agricoles. La méthodologie et les calculs sont documentés. <strong>Indicateur </strong>: • <ul><li>Estimation du volume de production certifié (kg ou tiges)</li></ul> &#13; Veuillez consulter le SA-G-SD-8 Document d&#39;orientation G : Estimation du rendement",
+                    "num": "2.1.1",
+                    "certif_de_group": {
+                        "direction_du_group": "NO",
+                        "petite_exploitation_agricole": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "2.1.2",
+                    " text": "<h1>N&#176;:Exigences principales</h1><br/><br/>La direction fait annuellement le bilan de :  <ul><li>La production totale récoltée certifiée (en kg, en tiges pour les fleurs)</li><li>Le solde des produits achetés, produits, vendus et en stock</li></ul> &#13;Si la différence entre la production estimée et la production réalisée est >15%, une justification raisonnable doit être donnée et des mesures doivent être prises pour empêcher la survenue de telles différences à l&#39;avenir. Pour les groupes, les différences sont vérifiées et justifiées à la fois au niveau du groupe et au niveau des membres individuels. &#13;   <strong>Indicateur </strong>: <ul><li>Production totale récoltée du produit agricole certifié (en kg ou tiges)</li></ul>",
+                    "certif_de_group": {
+                        "direction_du_group": "NO",
+                        "petite_exploitation_agricole": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "2.1.3",
+                    " text": "<h1>N&#176;:Exigences principales</h1><br/><br/>Les produits certifiés sont visuellement séparés des produits non certifiés à toutes les étapes, y compris durant le transport, le stockage et la transformation. Cette mesure ne s&#39;applique pas aux produits en bilan massique.",
+                    "certif_de_group": {
+                        "direction_du_group": "NO",
+                        "petite_exploitation_agricole": "NO",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "2.1.4",
+                    " text": "<h1>N&#176;:Exigences principales</h1><br/><br/>La Direction a cartographié le parcours des produits jusqu&#39;à la destination finale du <u>champ d'application du certificat</u>, y compris tous les intermédiaires (points de collecte, transport, unités de transformation, entrepôts, etc.) et les activités réalisées sur le produit.",
+                    "certif_de_group": {
+                        "direction_du_group": "NO",
+                        "petite_exploitation_agricole": "NO",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "2.1.5",
+                    " text": "<h1>N&#176;:Exigences principales</h1><br/><br/>Les produits qui sont vendus comme certifiés peuvent être suivis jusqu&#39;à/aux l&#39;exploitation(s) agricole(s) certifiée(s) où ils ont été produits. &#13;&#13;La direction conserve les documents d&#39;achats et de ventes liés aux livraisons physiques provenant des produits certifiés, multi-certifiés et non certifiés. Elle s&#39;assure que tous les intermédiaires font la même chose. Les documents d&#39;achat et de vente comprennent les données, le type de produit, le (pourcentage du) volume certifié, le membre du groupe et, le cas échéant, le type de traçabilité. &#13; Dans le cas d'une certification de groupe, la direction du groupe garantit que les membres du groupe reçoivent un reçu pour chaque livraison du membre du groupe au groupe ou à un intermédiaire, en précisant le nom du membre du groupe, l&#39;identité du membre du groupe, la date, le type de produit et le volume.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "NO",
+                        "direction_du_group": "NO",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "2.1.6",
+                    " text": "<h1>N&#176;:Exigences principales</h1><br/><br/>Les envois de produits certifiés ne dépassent pas la production totale (pour les exploitations agricoles), les achats de produits certifiés plus les stocks restants de l&#39;année précédente.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "NO",
+                        "direction_du_group": "NO",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "2.1.7",
+                    " text": "<h1>N&#176;:Exigences principales</h1><br/><br/>Les envois de produits certifiés ne dépassent pas la production totale (pour les exploitations agricoles), les achats de produits certifiés plus les stocks restants de l&#39;année précédente.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "NO",
+                        "direction_du_group": "NO",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "2.1.8",
+                    " text": "<h1>N&#176;:Exigences principales</h1><br/><br/>Les membres du groupe conservent les reçus des ventes (électronique ou physique), y compris le nom du membre du groupe, le numéro d'identification du membre, la date, le type de produit et le volume.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "YES",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "NO",
+                        "Petite/grandes": "NO"
+                    }
+                },
+                {
+                    "num": "2.1.9",
+                    " text": "<h1>N&#176;:Exigences principales</h1><br/><br/>La méthodologie correcte utilisée pour le calcul des facteurs de conversion est démontrée et documentée pour chaque produit certifié et rapportée en conséquence dans la <u>plateforme de traçabilité.</u>",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "NO",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "2.1.10",
+                    " text": "<h1>N&#176;:Exigences principales</h1><br/><br/>L&#39;équipement utilisé pour définir le poids ou le volume de produit certifié est calibré annuellement.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "NO",
+                        "direction_du_group": "YES",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Traçabilité sur la plateforme en ligne",
+            "numero": "2.2",
+            "content": [
+                {
+                    "num": "2.2.1",
+                    "principal_requirement": "<h1>N&#176;:Exigences principales</h1><br/>Applicable aux titulaires de certificat travaillant dans les cultures agricoles pour lesquelles la traçabilité en ligne est offerte au sein du Programme de certification de Rainforest Alliance.<br/><br/><br/>Les volumes vendus comme certifiés sont enregistrés sur la plateforme de traçabilité de Rainforest Alliance au plus tard deux semaines après la fin du trimestre durant lequel la livraison a eu lieu. &#13;Veuillez consulter SA-S-SD-20 Annexe Chapitre 2 : Traçabilité",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "NO",
+                        "direction_du_group": "NO",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "2.2.2",
+                    "principal_requirement": "<h1>N&#176;:Exigences principales</h1><br/>Applicable aux titulaires de certificat travaillant dans les cultures agricoles pour lesquelles la traçabilité en ligne est offerte au sein du Programme de certification de Rainforest Alliance.<br/><br/><br/>Les acheteurs de produits certifiés Rainforest Alliance possèdent une procédure en vigueur pour vérifier régulièrement que les transactions sur la plateforme de traçabilité correspondent aux factures des produits certifiés achetés et/ou expédiés.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "NO",
+                        "direction_du_group": "NO",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "2.2.3",
+                    "principal_requirement": "<h1>N&#176;:Exigences principales</h1><br/>Applicable aux titulaires de certificat travaillant dans les cultures agricoles pour lesquelles la traçabilité en ligne est offerte au sein du Programme de certification de Rainforest Alliance.<br/><br/><br/>Les volumes vendus comme non certifiés Rainforest Alliance et/ou perdus sont supprimés de la plateforme de traçabilité dans les deux semaines suivant la fin du trimestre au cours duquel l&#39;expédition a eu lieu ou au cours duquel le volume a été perdu &#13;Pour les volumes en bilan massique, veuillez consulter le document SA-S-SD-20 Annexe Chapitre 2 : Traçabilité pour plus de détails sur l&#39;applicabilité.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "NO",
+                        "direction_du_group": "NO",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "NO"
+                    }
+                },
+                {
+                    "num": "2.2.4",
+                    "principal_requirement": "<h1>N&#176;:Exigences principales</h1><br/>Applicable aux titulaires de certificat travaillant dans les cultures agricoles pour lesquelles la traçabilité en ligne est offerte au sein du Programme de certification de Rainforest Alliance.<br/><br/><br/>Une approbation doit être obtenue, conformément à la Politique de Rainforest Alliance concernant les marques déposées et l&#39;étiquetage, avant utilisation sur et hors emballage des marques déposées destinées au public.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "NO",
+                        "direction_du_group": "NO",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Bilan Massique",
+            "numero": "2.3",
+            "content": [
+                {
+                    "num": "2.3.1",
+                    "principal_requirement": "<h1>N&#176;:Exigences principales</h1><br/>Applicable aux titulaires de certificat appliquant le bilan massique dans les cultures agricoles pour lesquels le bilan massique est permis comme type de traçabilité.<br/><br/><br/>Les crédits de volume sont uniquement convertis pour un processus qui peut avoir réellement lieu. La conversion d&#39;un produit ne peut pas revenir en arrière (au produit initial).",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "NO",
+                        "direction_du_group": "NO",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "2.3.2",
+                    "principal_requirement": "<h1>N&#176;:Exigences principales</h1><br/>Le volume de produit vendu comme bilan massique est à 100% couvert par les volumes achetés comme certifiés. Un bilan volumique négatif est systématiquement interdit.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "NO",
+                        "direction_du_group": "NO",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "2.3.3",
+                    "principal_requirement": "<h1>N&#176;:Exigences principales</h1><br/>Les volumes vendus comme certifiés correspondent aux exigences minimales de pourcentage pour la correspondance des origines. Ne s&#39;applique qu&#39;aux produits de cacao en bilan massique pour lesquels une correspondance des origines est requise. &#13;",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "NO",
+                        "direction_du_group": "NO",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "2.3.4",
+                    "principal_requirement": "<h1>N&#176;:Exigences principales</h1><br/>La documentation des achats et des ventes de volumes vendus comme certifiés comporte les informations sur le pays d&#39;origine pour les volumes entrants certifiés et non certifiés. Ne s&#39;applique qu&#39;aux produits de cacao en <u>bilan massique</u> pour lesquels une correspondance des origines est requise.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "NO",
+                        "direction_du_group": "NO",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                },
+                {
+                    "num": "2.3.5",
+                    "principal_requirement": "<h1>N&#176;:Amélioration librement choisie</h1><br/>Les mouvements de volumes en <u>bilan massique</u> d&#39;un <u>produit certifié</u> à l&#39;autre doivent toujours être accompagnés par une livraison physique du produit concerné. La vente de volumes sans livraison physique ne peut avoir lieu qu&#39;entre les sites couverts par le même champ d&#39;application de la certification.",
+                    "certif_de_group": {
+                        "petite_exploitation_agricole": "NO",
+                        "direction_du_group": "NO",
+                        "grande_exploitation_agricole": "YES",
+                        "Petite/grandes": "YES"
+                    }
+                }
+            ]
+        }
+    ]
+}
