@@ -3,9 +3,11 @@
     <img src="src/global/share/public/images/agric-homepage.png" alt="Agriculture Durability API Banner" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 24px rgba(0,0,0,0.08); margin-bottom: 24px;" />
 </p>
 
-# Agriculture Durability REST API
+# Agriculture Durability REST API : WIP.
 
 A comprehensive RESTful API designed to manage agricultural sustainability, supply chain traceability, and compliance with Rainforest Alliance standards. This system enables organizations to track farmers, manage inspections, oversee training programs, and ensure durability standards across agricultural value chains (Cocoa, Coffee, Banana, etc.).
+
+this API is aimed to be consumed by client apps (mobile and web apps): So, we are in continuous improvement.
 
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
