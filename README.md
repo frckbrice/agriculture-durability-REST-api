@@ -1,3 +1,8 @@
+
+<p align="center">
+    <img src="src/global/share/public/images/agric-homepage.png" alt="Agriculture Durability API Banner" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 24px rgba(0,0,0,0.08); margin-bottom: 24px;" />
+</p>
+
 # Agriculture Durability REST API
 
 A comprehensive RESTful API designed to manage agricultural sustainability, supply chain traceability, and compliance with Rainforest Alliance standards. This system enables organizations to track farmers, manage inspections, oversee training programs, and ensure durability standards across agricultural value chains (Cocoa, Coffee, Banana, etc.).
@@ -19,13 +24,26 @@ A comprehensive RESTful API designed to manage agricultural sustainability, supp
 - **Capacity Building**: Management of training sessions, attendance sheets, and competency assessments.
 - **Sustainability Compliance**: Dedicated modules for auditing Agriculture, Social, Environmental, and Income/Responsibility metrics.
 
+
 ## Tech Stack
 
-- **Runtime**: Node.js
-- **Language**: TypeScript
-- **Database**: PostgreSQL
-- **ORM**: Prisma
-- **Architecture**: RESTful API
+- **Framework:** [NestJS](https://nestjs.com/) (Node.js, Express)
+- **Language:** TypeScript
+- **Database:** PostgreSQL
+- **ORM:** Prisma
+- **API Documentation:** Swagger / OpenAPI
+- **Authentication:** JWT (JSON Web Token)
+- **Testing:** Jest, Supertest
+- **Validation:** class-validator, class-transformer
+- **Caching:** cache-manager, @nestjs/cache-manager
+- **Scheduling:** @nestjs/schedule
+- **Event Handling:** @nestjs/event-emitter
+- **Rate Limiting:** @nestjs/throttler
+- **Mailing:** nodemailer, @nestjs-modules/mailer
+- **Configuration:** @nestjs/config, dotenv
+- **Utilities:** lodash, moment-timezone, date-fns, rxjs
+- **Code Quality:** ESLint, Prettier
+- **Deployment:** Vercel (vercel.json), Docker-ready
 
 ## Prerequisites
 
@@ -72,12 +90,12 @@ Start the development server:
 npm run dev
 ```
 
-## 🗄️ Data Model
+## Data Model
 
 The application utilizes **Prisma** for type-safe database interactions. Key entities include:
 - **Core**: `User`, `Company`, `Subscription`
 
-## 📁 Project Structure
+## Project Structure
 
 The project is organized as follows:
 
@@ -111,7 +129,7 @@ agriculture-durability-REST-api/
 - **prisma/**: Database schema and migration files.
 - **test/**: End-to-end and integration tests.
 - **Operations**: `Project`, `Campaign`, `Training`
-## 🧪 Testing Strategies
+## Testing Strategies
 
 The project uses **Jest** for testing, with a focus on:
 - **Unit Tests**: Validate individual services and controllers.
@@ -147,6 +165,6 @@ Tests are configured in `jest-e2e.json` and use an isolated test database for E2
 - **Traceability**: `Farmer`, `Farm`, `Market`, `Transaction`, `Receipt`
 - **Auditing**: `Agriculture`, `Social`, `Environment`
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License.
