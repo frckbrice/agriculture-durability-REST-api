@@ -1,0 +1,15 @@
+.git
+.github
+.vscode
+node_modules
+dist
+coverage
+tmp
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+.env.*
+Dockerfile*
+README.md
+test
